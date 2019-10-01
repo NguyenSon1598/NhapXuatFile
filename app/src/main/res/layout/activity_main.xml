@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/etnhaptenfile"
+            android:layout_width="234dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Nhập tên file"
+            android:inputType="textPersonName" />
+
+        <Spinner
+            android:id="@+id/sptenfile"
+            android:layout_width="176dp"
+            android:layout_height="34dp" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/etnhapthongtin"
+        android:layout_width="match_parent"
+        android:layout_height="245dp"
+        android:ems="10"
+        android:hint="Nhập thông tin "
+        android:inputType="textPersonName" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/btnnhapmoi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nhập mới" />
+
+        <Button
+            android:id="@+id/btnluu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lưu" />
+
+        <Button
+            android:id="@+id/bntmo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mở" />
+    </LinearLayout>
+
+</LinearLayout>
